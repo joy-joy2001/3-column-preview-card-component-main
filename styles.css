@@ -8,25 +8,31 @@ html, body, main {
 }
 
 article {
-    border-radius: inherit;
-    border: inherit;
-    border-style: dashed;
+    color: white;
+    padding: 40px;
     width: 33.3%;
     height: 100%;
 }
 
 .sedan-card {
+    background-color: hsl(31, 77%, 52%);
     position: absolute;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
 }
 
 .suv-card {
+    background-color: hsl(184, 100%, 22%);
     position: absolute;
     left: 33.3%;
 }
 
 .luxury-card {
+    background-color: hsl(179, 100%, 13%);
     position: absolute;
     left: 66.6%;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
 }
 
 .attribution {
