@@ -19,16 +19,16 @@ article {
     height: 100%;
 }
 
-.attribution {
+footer {
     font-size: 11px;    
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     right: 0;
     width: 100%;
     text-align: center;
 }
 
-.attribution a {
+footer a {
     color: hsl(228, 45%, 44%); 
 }
 
@@ -51,6 +51,10 @@ button {
 h2 {
     font-family: 'Big Shoulders Display';
     font-size: 40px;
+}
+
+body > header {
+    display: none;
 }
 
 .cars-container {
