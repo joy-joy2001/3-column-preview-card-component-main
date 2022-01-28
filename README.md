@@ -33,6 +33,7 @@ Users should be able to:
 
 ### Links
 
+checkout the website here: https://joy-joy2001.github.io/joy-joy2001-3-card-component-challenge.github.io/
 
 ## My process
 
