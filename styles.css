@@ -32,20 +32,21 @@ footer a {
     color: hsl(228, 45%, 44%); 
 }
 
-p, button {
+p, section a {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 300;
     line-height: 1.6;
     word-spacing: 0.1em;
 }
 
-button {
+section a {
+    display: inline-block;
     margin-top: 20%;
     border: 1px solid white;
     border-radius: 70px;
     background-color: white;
-    padding: 15px 35px;
-    font-weight: bold;
+    padding: 12px 35px;
+    font-weight: 400;
 }
 
 h2 {
@@ -73,7 +74,7 @@ body > header {
     border-top-left-radius: inherit;
 }
 
-.sedan-card button {
+.sedan-card a {
     color: hsl(31, 77%, 52%);
 }
 
@@ -83,7 +84,7 @@ body > header {
     left: 33.3%;
 }
 
-.suv-card button {
+.suv-card a {
     color: hsl(184, 100%, 22%);
 }
 
@@ -95,11 +96,11 @@ body > header {
     border-bottom-right-radius: inherit;
 }
 
-.luxury-card button{
+.luxury-card a{
     color: hsl(179, 100%, 13%);
 }
 
-button:hover {
+ section a:hover {
     background-color: inherit;
     color: white;
 }
